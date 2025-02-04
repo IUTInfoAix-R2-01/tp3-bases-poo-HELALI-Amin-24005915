@@ -14,7 +14,7 @@ public class VeloElec extends Velo {
 
     public VeloElec(double diamRoue, double coupleMoteur) {
         super.setDiamRoue(diamRoue);
-        this.facteurPuissanceMoteur = coupleMoteur;
+        this.facteurPuissanceMoteur = coupleMoteur ;
     }
 
     public VeloElec() {

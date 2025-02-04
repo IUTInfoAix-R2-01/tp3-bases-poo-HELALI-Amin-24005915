@@ -7,12 +7,12 @@ public class Velo {
 	private static double DEFAUT_BRAQUET = 13.0;
     private double braquet;
     private double diamRoue;
-    private Random genAlea;
+    private Random genAlea ;
     
     
     
     public Random getGenAlea() {
-		return genAlea;
+		return genAlea ;
 	}
 
 	public void setGenAlea(Random genAlea) {
