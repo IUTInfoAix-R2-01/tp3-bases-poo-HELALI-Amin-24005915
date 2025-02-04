@@ -4,6 +4,8 @@ public class Livre {
     private String name;
     private float price;
     private int quantity;
+	
+
 
     public Livre() {
         name = "Robison";
@@ -22,6 +24,12 @@ public class Livre {
     public int getQuantite() {
         return quantity;
     }
+    
+    
+    public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+    
 
     public String getName() {
         return name;
@@ -39,4 +47,9 @@ public class Livre {
                 ", quantity=" + quantity +
                 '}';
     }
+
+
+	
+
+    
 }
